@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'sofia.apps.SofiaConfig',
+    # 'apps.sofia.app.SofiaConfig',
+    'apps.sofia',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,11 @@ WSGI_APPLICATION = 'sofiadash.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'sofiadash',
+        'USER': 'sofia',
+        'PASSWORD': '1234',
+        'HOST': 'localhost'
     }
 }
 
