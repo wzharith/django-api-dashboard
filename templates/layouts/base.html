@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.png' %}">
+
+    <title>{% block title %}{% endblock %} | SOFIA </title>
+
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    <!-- Nucleo Icons -->
+    <link href="{% static 'assets/css/nucleo-icons.css' %}" rel="stylesheet" />
+    <!-- CSS Files -->
+    <link href="{% static 'assets/css/black-dashboard.css' %}" rel="stylesheet" />
+
+    <!-- Specific Page CSS goes HERE  -->
+    {% block stylesheets %}{% endblock stylesheets %}
+
+</head>
+<body>
+    <div class="wrapper">
+        {% include 'includes/sidebar.html' %}
+        <div class="main-panel">
+            {% include 'includes/navigation.html' %}
+            <div class="content">
+                {% block content %}{% endblock content %}
+            </div>
+            {% include 'includes/footer.html' %}
+        </div>
+    </div>
+
+    {% include 'includes/scripts.html' %}
+    {% include 'includes/scripts-sidebar.html' %}
+
+    <!-- Individual Custom JS -->
+    {% block javascripts %}{% endblock javascripts %}
+
+</body>
+</html>
