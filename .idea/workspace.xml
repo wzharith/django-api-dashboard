@@ -2,204 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5a2b61-328e-4fee-84d4-f5cba1f1e36e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/chart/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/bootstrap/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/custom/mixins/opacity.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard/custom/mixins/opacity.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/nucleo-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/fonts/nucleo.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/12345.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/anime3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/anime6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/bg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/default-avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/emilyz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/img_3115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/james.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/mike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/now-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/black-dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/black-dashboard.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/black-dashboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/core/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/core/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/core/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/bootstrap-notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/chartjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/js/plugins/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_spinners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_deprecate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_overflow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/bootstrap/vendor/_rfs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_checkboxes-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_example-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_fixed-plugin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_rtl.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_white-content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/cards/_card-chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/cards/_card-map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/cards/_card-plain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/cards/_card-task.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/cards/_card-user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/_wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/mixins/opacity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_backgrounds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_floating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_helper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/utilities/_transform.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/vendor/_plugin-animate-bootstrap-notify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/vendor/_plugin-perfect-scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/navigation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/scripts-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/scripts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/includes/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layouts/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sofiadash.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sofiadash.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sofia/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sofia/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofiadash/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sofiadash/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sofiadash/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sofiadash/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/black-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/black-dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/black-dashboard.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/black-dashboard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/nucleo-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/black-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_white-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/scss/black-dashboard/custom/_white-content.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets/chart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -253,10 +65,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\static\assets" />
       <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\static\assets\chart" />
       <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\apps\sofia\templates" />
       <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\templates\includes" />
-      <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\static\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\templates" />
@@ -302,7 +114,7 @@
       <workItem from="1616509196289" duration="1628000" />
       <workItem from="1616566154643" duration="5707000" />
       <workItem from="1616639869976" duration="10576000" />
-      <workItem from="1616948619034" duration="544000" />
+      <workItem from="1616948619034" duration="1020000" />
     </task>
     <task id="LOCAL-00001" summary="create an empty django project">
       <created>1616490380818</created>
@@ -318,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616510237625</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add dashboard">
+      <created>1616949324150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616949324150</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +159,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create an empty django project" />
     <MESSAGE value="move apps directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="move apps directory" />
+    <MESSAGE value="add dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dashboard" />
   </component>
 </project>
