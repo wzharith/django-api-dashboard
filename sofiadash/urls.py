@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from apps.sofia.views import index, ChartData, TotalShipments, SalesState
+from apps.sofia.views import index, ChartData, TotalShipments, SalesState, order_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/chart/data/', ChartData.as_view()),
     path('api/chart/shipments/', TotalShipments.as_view()),
     path('api/chart/state/', SalesState.as_view()),
+    path('api/chart/orders/', order_list),
     path('', index, name='home'),
 ]
