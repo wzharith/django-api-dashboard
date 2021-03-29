@@ -271,104 +271,22 @@
                   </tr>
                 </thead>
                 <tbody>
+                  {% for order in orders %}
                   <tr>
                     <td>
-                      Dakota Rice
+                        {{ order.name }}
                     </td>
                     <td>
-                      Niger
+                        {{ order.phone }}
                     </td>
                     <td>
-                      Oud-Turnhout
+                        {{ order.state }}
                     </td>
                     <td class="text-center">
-                      $36,738
+                      RM{{ order.paid_amount }}
                     </td>
                   </tr>
-                  <tr>
-                    <td>
-                      Minerva Hooper
-                    </td>
-                    <td>
-                      Curaçao
-                    </td>
-                    <td>
-                      Sinaai-Waas
-                    </td>
-                    <td class="text-center">
-                      $23,789
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Sage Rodriguez
-                    </td>
-                    <td>
-                      Netherlands
-                    </td>
-                    <td>
-                      Baileux
-                    </td>
-                    <td class="text-center">
-                      $56,142
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Philip Chaney
-                    </td>
-                    <td>
-                      Korea, South
-                    </td>
-                    <td>
-                      Overland Park
-                    </td>
-                    <td class="text-center">
-                      $38,735
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Doris Greene
-                    </td>
-                    <td>
-                      Malawi
-                    </td>
-                    <td>
-                      Feldkirchen in Kärnten
-                    </td>
-                    <td class="text-center">
-                      $63,542
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Mason Porter
-                    </td>
-                    <td>
-                      Chile
-                    </td>
-                    <td>
-                      Gloucester
-                    </td>
-                    <td class="text-center">
-                      $78,615
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Jon Porter
-                    </td>
-                    <td>
-                      Portugal
-                    </td>
-                    <td>
-                      Gloucester
-                    </td>
-                    <td class="text-center">
-                      $98,615
-                    </td>
-                  </tr>
+                  {% endfor %}
                 </tbody>
               </table>
             </div>

@@ -46,8 +46,10 @@ class ChartData(APIView):
 
 
 def index(request):
+    orders = Order.objects.all().order_by('-created_at')[:7]
     context = {}
     context['segment'] = 'index'
+    context['orders'] = orders
 
     html_template = loader.get_template('index.html')
     return HttpResponse(html_template.render(context, request))
