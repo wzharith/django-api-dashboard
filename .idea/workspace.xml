@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5a2b61-328e-4fee-84d4-f5cba1f1e36e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/sofia/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/sofia/migrations/0002_order_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/nucleo-icons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sofia/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sofia/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/sofia/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sofia/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/sofia/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/sofia/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofiadash/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sofiadash/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sofiadash/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sofiadash/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/chart/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/chart/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\static\assets\css" />
       <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\static\assets" />
       <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\static\assets\chart" />
       <recent name="C:\Users\User\OneDrive\Desktop\Programming\sofiadash\apps\sofia\templates" />
@@ -109,7 +112,7 @@
       <workItem from="1616509196289" duration="1628000" />
       <workItem from="1616566154643" duration="5707000" />
       <workItem from="1616639869976" duration="10576000" />
-      <workItem from="1616948619034" duration="3827000" />
+      <workItem from="1616948619034" duration="10926000" />
     </task>
     <task id="LOCAL-00001" summary="create an empty django project">
       <created>1616490380818</created>
@@ -139,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616949711371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add models">
+      <created>1616953997206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616953997206</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +173,7 @@
     <MESSAGE value="move apps directory" />
     <MESSAGE value="add dashboard" />
     <MESSAGE value="modify dashboard style" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify dashboard style" />
+    <MESSAGE value="add models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add models" />
   </component>
 </project>

@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from apps.sofia.views import index
+from apps.sofia.views import index, ChartData
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/chart/data/', ChartData.as_view()),
     path('', index, name='home'),
 ]
