@@ -1,2 +1,2 @@
 # sofia-dashboard
-A dashboard designed for SOFIA project by using Django 3 and Bootstrap 4
+A dashboard designed by using Django, PostgreSQL, Bootstrap, and ChartJS
