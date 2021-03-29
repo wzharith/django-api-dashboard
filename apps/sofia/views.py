@@ -13,6 +13,48 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 
+class SalesState(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        state = []
+        count = []
+        sales = Order.objects.values('state').annotate(dcount=Count('state')).order_by('-dcount')[:6]
+
+        # for month in totalship:
+        #     shipmonth.append(calendar.month_name[month['sales_date'].month])
+        #     ship.append(month['sales'])
+
+        data = {
+            'sales': sales,
+            # 'month': shipmonth,
+        }
+        return Response(data)
+
+
+class TotalShipments(APIView):
+    authentication_classes = []
+    permission_classes = []
+
+    def get(self, request, format=None):
+        shipmonth = []
+        ship = []
+        totalship = Order.objects.annotate(sales_date=Trunc('created_at', 'month')).values('sales_date').annotate(
+            sales=Count('paid_amount')).order_by('-sales_date')[:6]
+        totalship = reversed(totalship)
+
+        for month in totalship:
+            shipmonth.append(calendar.month_name[month['sales_date'].month])
+            ship.append(month['sales'])
+
+        data = {
+            'ship': ship,
+            'month': shipmonth,
+        }
+        return Response(data)
+
+
 class ChartData(APIView):
     authentication_classes = []
     permission_classes = []
@@ -47,9 +89,18 @@ class ChartData(APIView):
 
 def index(request):
     orders = Order.objects.all().order_by('-created_at')[:7]
+
+    todaysales = Order.objects.annotate(sales_date=Trunc('created_at', 'day')).values('sales_date').annotate(
+        sales=Sum('paid_amount')).order_by('-sales_date')[:1]
+    for sales in todaysales:
+        currsales = sales['sales']
+
+    totalship = Order.objects
+
     context = {}
     context['segment'] = 'index'
     context['orders'] = orders
+    context['dailysales'] = currsales
 
     html_template = loader.get_template('index.html')
     return HttpResponse(html_template.render(context, request))

@@ -327,8 +327,8 @@ demo = {
             zeroLineColor: "transparent",
           },
           ticks: {
-            suggestedMin: 60,
-            suggestedMax: 120,
+            suggestedMin: 1,
+            suggestedMax: 8,
             padding: 20,
             fontColor: "#9e9e9e"
           }
@@ -503,6 +503,9 @@ demo = {
 
     var myChart = new Chart(ctx, {
       type: 'bar',
+      scaleOverride: true,
+      scaleSteps: 1,
+      scaleStepWidth: 5,
       responsive: true,
       legend: {
         display: false
@@ -510,7 +513,7 @@ demo = {
       data: {
         labels: ['USA', 'GER', 'AUS', 'UK', 'RO', 'BR'],
         datasets: [{
-          label: "Countries",
+          label: "State",
           fill: true,
           backgroundColor: gradientStroke,
           hoverBackgroundColor: gradientStroke,
@@ -518,7 +521,7 @@ demo = {
           borderWidth: 2,
           borderDash: [],
           borderDashOffset: 0.0,
-          data: [53, 20, 10, 80, 100, 45],
+          data: [1, 2, 3, 1, 0, 0],
         }]
       },
       options: gradientBarChartConfiguration
