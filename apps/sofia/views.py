@@ -18,17 +18,17 @@ class SalesState(APIView):
     permission_classes = []
 
     def get(self, request, format=None):
-        state = []
+        states = []
         count = []
         sales = Order.objects.values('state').annotate(dcount=Count('state')).order_by('-dcount')[:6]
 
-        # for month in totalship:
-        #     shipmonth.append(calendar.month_name[month['sales_date'].month])
-        #     ship.append(month['sales'])
+        for state in sales:
+            states.append(state['state'])
+            count.append(state['dcount'])
 
         data = {
-            'sales': sales,
-            # 'month': shipmonth,
+            'state': states,
+            'count': count,
         }
         return Response(data)
 
@@ -95,12 +95,13 @@ def index(request):
     for sales in todaysales:
         currsales = sales['sales']
 
-    totalship = Order.objects
+    totalship = Order.objects.all().count()
 
     context = {}
     context['segment'] = 'index'
     context['orders'] = orders
     context['dailysales'] = currsales
+    context['totalship'] = totalship
 
     html_template = loader.get_template('index.html')
     return HttpResponse(html_template.render(context, request))
